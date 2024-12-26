@@ -1,0 +1,33 @@
+{
+    "main": {
+        "mainImg": "test.jpg"
+    },
+    "about": {
+        "comment": "웹 개발자가 되기 위해 노력하는 강동성입니다. 아직은 부족한 것이 많지만 성장해 가는 모습 보여 드리겠습니다.",
+        "education": {
+            "date": {
+                "date1": ["2016", "03", "2022", "02"]
+            },
+            "degree": {
+                "degree1": ["전주대학교", "컴퓨터공학과"]
+            }
+        },
+        "skill": {
+            "frontend": ["html.png", "css.png", "js.png"],
+            "backend": ["nodejs.png", "C.png", "java.png"],
+            "library": ["react.png", "next_js.png"],
+            "db": ["mariadb.png", "pgsql.png"]
+        }
+    },
+    "project": [
+        {
+            "projectTitle": "탕후루 춤추는 친구 크롬 위젯",
+            "imgPath": "somenail/project1.png",
+            "discription": "탕후루 춤을 추는 친구가 웹 좌측하단에서 심심하지 않게 춤춰줍니다.",
+            "usingSkill": [
+                "javascript"
+            ],
+            "sourceLink": "https://github.com/dong1270/Najakjang.git"
+        }
+    ]
+}

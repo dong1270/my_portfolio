@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -22,7 +23,30 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>
+          <div className="nav-var">
+              <div className="logo" href="/"><a>DS_HOME</a></div>
+              <div className="nav-menu">
+                <ul>
+                  <li>
+                    <a className="item" href="/">Home</a>
+                  </li>
+                  <li>
+                    <a className="item" href="About">About</a>
+                  </li>
+                  <li>
+                    <a className="item" href="Project">Project</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </header>
+
         {children}
+
+        <footer>
+            연습용 웹 페이지
+        </footer>
       </body>
     </html>
   );

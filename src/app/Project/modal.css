@@ -1,0 +1,109 @@
+.modal-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 11110;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11111;
+}
+
+.modal-frame {
+    position: relative;
+    width: 800px;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 3px, rgba(255, 255, 255, 0.06) 0px 10px 20px;
+    padding: 1.25rem;
+    opacity: 1; 
+    transform: none;
+}
+
+.close-box {
+    position: fixed;
+    top: -8px;
+    right: -63px;
+    color: rgb(255, 255, 255);
+    font-size: 3.375rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.modal-frame > div img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-frame .modal-text {
+    padding-left: 0.938rem;
+    padding-top: 0.938rem;
+}
+
+.modal-frame > div h3 {
+    font-size: 1.75rem
+}
+
+.modal-text > div {
+    margin-bottom: 16px;
+}
+
+.sub-title {
+    padding-bottom: 5px;
+}
+
+.sub-title > h5 {
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.modal-frame .discription {
+    line-height: 1.6rem;
+    padding-left: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    unicode-bidi: isolate;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.skill-list > li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.modal-frame > div a {
+    padding-left: 1.375rem;
+    margin-top: 0.938rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: dodgerblue;
+}

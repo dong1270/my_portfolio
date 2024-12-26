@@ -1,21 +1,241 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  scrollbar-width: none;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  display: block;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.nav-var {
+  display: flex;
+  margin: 0px auto;
+  height: 70px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+.nav-menu {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 5px;
+  line-height: 38px;
+}
+
+.nav-menu li > a {
+  padding: 0px 30px;
+  display: inline-block;
+  color: #3b3b3b;
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+
+.item:hover {
+  left: 0px;
+  background-color: #3b3b3b;
+  height: 100%;
+  z-index: 100;
+  color: white;
+
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  height: 70px;
+  line-height: 70px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  background-color: white;
+  color: #3b3b3b;
+  position: fixed;
+  padding: 0px 70px;
+}
+
+.main-view {
+  position: absolute;
+  inset: 70px;
+  overflow: hidden;
+}
+
+.main-view > div {
+  height: 100%;
+  display: flex;
+}
+
+.img-view {
+  width: 43%;
+  position: relative;
+}
+
+.img-view > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.text-view {
+  width: calc(65%);
+  background-color: snow;
+  overflow-y: scroll;
+}
+
+.contents-view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.contents {
+  padding-left: 6.25rem;
+}
+
+.my-name {
+  font-size: 4.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1.875rem;
+  color: #3b3b3b;
+  opacity: 1;
+  transform: none;
+}
+
+.name-underline {
+  display: inline-block;
+  width: 4.375rem;
+  height: 0.313rem;
+  background-color: #3b3b3b;
+  margin-bottom: 1.875rem;
+}
+
+.my-pr {
+  font-size: 1.563rem;
+  margin-bottom: 2.188rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  color: #3b3b3b;
+  display: flex;
+  opacity: 1;
+  transform: none;
+}
+
+.text-tani-box {
+  margin-left: 0.5rem;
+  position: relative;
+  transform-origin: 50% 100%;
+}
+
+.text-tani-box > div {
+  width: 100%;
+  bottom: -1.563rem;
+  color: #3b3b3b;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.active {
+  opacity: 1;
+  bottom: 0px;
+  visibility: visible;
+  transform: rotateX(0deg);
+}
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transform: rotateX(-180deg);
+}
+
+.button {
+  width: 100%;
+  opacity: 1;
+  transform: none;
+}
+
+.button > a {
+  text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #3b3b3b;
+    padding: 1.75rem 2.375rem;
+    line-height: 0.375;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.063rem;
+    border: 2px solid #3b3b3b;
+    transition: 0.3s;
+}
+
+.button > a:hover {
+  color: #3b3b3b;
+  background-color: white;
+}
+
+
+/* 반응형 */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-view {
+      position: static;
+  }
+
+  .img-view{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-view {
+    position: static;
+  }
 }

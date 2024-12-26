@@ -1,0 +1,97 @@
+.about-main-view {
+    position: absolute;
+    inset: 70px;
+    overflow: hidden;
+}
+
+.about-main-view > div {
+    height: 100%;
+    display: flex;
+}
+
+.about-image-view {
+    width: 43%;
+    position: relative;
+}
+
+.about-image-view > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.about-text-view {
+    width: calc(65%);
+    background-color: snow;
+    overflow-y: scroll;
+}
+
+.about-contents-view {
+    padding: 5.75rem 6.25rem 0px;
+}
+
+.about {
+    overflow: hidden;
+    margin-bottom: 3.125rem;
+}
+
+.about > span {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    position: relative;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3b3b3b;
+}
+
+.about > span::after {
+    content: "";
+    margin-left: 1.563rem;
+    position: absolute;
+    width: 5000px;
+    height: 1px;
+    background-color: #858585;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    line-height: 25px;
+}
+
+.list-style {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.head-line {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 550;
+    padding-left: 10px;
+    color: #3b3b3b;
+}
+
+.img-grid {
+    display: grid;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    padding-left: 1.375rem;
+}
+
+.img-box {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: 15px;
+    box-shadow: #000005 0px 0px 3px;
+}
+
+.img-box > img {
+    width: 100%;
+    height: 100%;
+}
+
