@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
               <div className="nav-menu">
                 <ul>
                   <li>
-                    <a className="item" href="/">Home</a>
+                    <a className="item" href="/my_portfolio/">Home</a>
                   </li>
                   <li>
                     <a className="item" href="About">About</a>
