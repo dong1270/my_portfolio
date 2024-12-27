@@ -95,3 +95,17 @@
     height: 100%;
 }
 
+@media (max-width: 767px) {
+    .about-main-view {
+        position: static;
+    }
+
+    .about-text-view {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about-contents-view {
+        padding: 5.75rem 20px 0px;
+    }
+}
