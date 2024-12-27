@@ -50,7 +50,7 @@ export default function Home() {
                             <div className="text-tani-box">
                                 <div className="target active"> 창의적인 </div>
                                 <div className="target hidden"> 도전적인 </div>
-                                <div className="target hidden"> 발전하는 </div>
+                                <div className="target hidden"> 혁신적인 </div>
                             </div>
                             인재
                         </h3>
