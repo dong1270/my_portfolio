@@ -28,6 +28,15 @@
                 "javascript"
             ],
             "sourceLink": "https://github.com/dong1270/Najakjang.git"
+        },
+        {
+            "projectTitle": "자기소개 페이지",
+            "imgPath": "somenail/mypofol.png",
+            "discription": "next.js를 이용한 간단한 자기소개 페이지 제작",
+            "usingSkill": [
+                "Next.js", "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
+            ],
+            "sourceLink": "https://github.com/dong1270/my_portfolio"
         }
     ]
 }
