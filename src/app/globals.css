@@ -188,6 +188,7 @@ footer {
 }
 
 .active {
+  position: static;
   opacity: 1;
   bottom: 0px;
   visibility: visible;
