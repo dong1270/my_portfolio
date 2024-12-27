@@ -6,7 +6,6 @@ import jsonData from '@/app/data.json';
 export default function Home() {
     let index = 0;
     const wordSpeed = 2000;
-    const msgArr = ['창의적인', '도전적인', '발전하는'];
     const mainTable = jsonData.main;
     const mainImgPath = mainTable.mainImg;
 
@@ -49,13 +48,9 @@ export default function Home() {
                         <span className="name-underline"/>
                         <h3 className="my-pr">
                             <div className="text-tani-box">
-                                {
-                                    msgArr.map((a, i) => {
-                                        return (
-                                            <div className="target hidden" key={i}> {a} </div>
-                                        )
-                                    }) 
-                                }
+                                <div className="target active"> 창의적인 </div>
+                                <div className="target hidden"> 도전적인 </div>
+                                <div className="target hidden"> 발전하는 </div>
                             </div>
                             인재
                         </h3>
