@@ -70,7 +70,7 @@ export default function MyModal(props) {
                                 </svg>
                             </b>
                             Source
-                            <a herf={srcLink}>
+                            <a href={srcLink}>
                                 {srcLink}
                             </a>
                         </div>
