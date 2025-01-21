@@ -37,6 +37,15 @@
                 "Next.js", "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
             "sourceLink": "https://github.com/dong1270/my_portfolio"
+        },
+        {
+            "projectTitle": "스크롤 애니메이션",
+            "imgPath": "somenail/scroll-animation-somenail.png",
+            "discription": "스크롤 애니메이션을 이용한 여행 앨범 웹앱",
+            "usingSkill": [
+                "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
+            ],
+            "sourceLink": "https://github.com/dong1270/my_scroll_animation"
         }
     ]
 }
