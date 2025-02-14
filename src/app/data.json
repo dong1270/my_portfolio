@@ -21,15 +21,6 @@
     },
     "project": [
         {
-            "projectTitle": "탕후루 춤추는 친구 크롬 위젯",
-            "imgPath": "somenail/project1.png",
-            "discription": "탕후루 춤을 추는 친구가 웹 좌측하단에서 심심하지 않게 춤춰줍니다.",
-            "usingSkill": [
-                "javascript"
-            ],
-            "sourceLink": "https://github.com/dong1270/Najakjang.git"
-        },
-        {
             "projectTitle": "자기소개 페이지",
             "imgPath": "somenail/mypofol.png",
             "discription": "next.js를 이용한 간단한 자기소개 페이지 제작",
