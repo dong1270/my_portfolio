@@ -33,7 +33,7 @@ export default function navigation() {
                     <div className="nav-menu">
                     <ul>
                         <li>
-                        <a className="item" href="/my_portfolio/">Home</a>
+                        <a className="item" href="/">Home</a>
                         </li>
                         <li>
                         <a className="item" href="About">About</a>
@@ -58,7 +58,7 @@ export default function navigation() {
                 <div className="mobile-list-frame">
                     <ul className="mobile-list">
                         <li>  
-                            <a href="/my_portfolio/">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
                             <a href="About">About</a>
