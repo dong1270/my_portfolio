@@ -24,10 +24,10 @@ export default function Home() {
             msg[1].classList.replace("active", "hidden");
             msg[2].classList.replace("hidden", "active");
         }
+
         index++;
-        if(index == 3) {
-            index = 0;
-        }
+        
+        if(index == 3) index = 0;
     };
     
     useEffect(() => {
@@ -48,11 +48,11 @@ export default function Home() {
                         <span className="name-underline"/>
                         <h3 className="my-pr">
                             <div className="text-tani-box">
-                                <div className="target active"> 창의적인 </div>
-                                <div className="target hidden"> 도전적인 </div>
-                                <div className="target hidden"> 혁신적인 </div>
+                                <div className="target active"> 임베디드 </div>
+                                <div className="target hidden"> 하드웨어 </div>
+                                <div className="target hidden"> IoT </div>
                             </div>
-                            인재
+                            개발자 강동성
                         </h3>
                         <div className="button"> <a href="Project">Project Page</a> </div>
                     </div>

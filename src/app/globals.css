@@ -1,8 +1,14 @@
 * {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   box-sizing: border-box;
   scrollbar-width: none;
+  
 }
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../../public/Pretendard/web/static/woff/Pretendard-Regular.woff') format('woff');
+}
+
 
 body {
   margin: 0;
@@ -21,13 +27,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font: inherit;
   vertical-align: baseline;
 }
 
 a {
+  font-weight: 800;
+  font-style: normal;
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 .nav-var {
@@ -51,7 +58,6 @@ a {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -127,7 +133,7 @@ footer {
 
 .text-view {
   width: calc(65%);
-  background-color: snow;
+  background-color: white;
   overflow-y: scroll;
 }
 
@@ -176,23 +182,26 @@ footer {
 .text-tani-box {
   margin-left: 0.5rem;
   position: relative;
+  width: 100px;
   transform-origin: 50% 100%;
 }
 
 .text-tani-box > div {
-  width: 100%;
   bottom: -1.563rem;
   color: #3b3b3b;
-  transition: 0.5s;
+  transition: 0.3s;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .active {
-  position: static;
   opacity: 1;
   bottom: 0px;
   visibility: visible;
   transform: rotateX(0deg);
+  width: 100%;
 }
 
 .hidden {

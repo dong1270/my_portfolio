@@ -13,7 +13,8 @@ export default function Project() {
     return (
         <div>
             <div className="main-view">
-                <div>
+            {/* <div className="project-main"> */}
+                <div className='project-main'>
                     <div className="project-text-view">
                         <div className="project-contents-view">
                             <div className="project-contents">

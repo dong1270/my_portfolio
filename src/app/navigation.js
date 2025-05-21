@@ -12,6 +12,7 @@ export default function navigation() {
         setMobileFrame(document.getElementById("mobile-frame"));
     }, [mobileNav]);
     
+    
     const touchMenu = () => {
         if(mobileMenu) {
             mobileNav.classList.replace("menu-open", "menu-close");

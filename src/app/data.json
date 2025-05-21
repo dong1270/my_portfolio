@@ -3,19 +3,21 @@
         "mainImg": "test.jpg"
     },
     "about": {
-        "comment": "웹 개발자가 되기 위해 노력하는 강동성입니다. 아직은 부족한 것이 많지만 성장해 가는 모습 보여 드리겠습니다.",
+        "comment": "세줄 자기소개",
         "education": {
             "date": {
-                "date1": ["2016", "03", "2022", "02"]
+                "date1": ["2016.", "03", " ~ ","2022.", "02"],
+                "date2": ["2025.", "02", " ~ ","2025.", "07"]
             },
             "degree": {
-                "degree1": ["전주대학교", "컴퓨터공학과"]
+                "degree1": ["전주대학교 ", "컴퓨터공학과"],
+                "degree2": ["KOSTA ", "자바스크립트기반 풀스텍 개발자 양성과정"]
             }
         },
         "skill": {
             "frontend": ["html.png", "css.png", "js.png"],
-            "backend": ["nodejs.png", "C.png", "java.png"],
-            "library": ["react.png", "next_js.png"],
+            "backend": ["nodejs.png", "ts.png", "C.png", "Cpp.png", "Csharp.png", "python.png"],
+            "library": ["react.png", "next_js.png", "Vite.png", "opencv.png", "koa_js.png"],
             "db": ["mariadb.png", "pgsql.png"]
         }
     },
@@ -27,7 +29,8 @@
             "usingSkill": [
                 "Next.js", "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
-            "sourceLink": "https://github.com/dong1270/my_portfolio"
+            "sourceLink": "https://github.com/dong1270/my_portfolio",
+            "siteLink": "https://dong1270.github.io/my_portfolio/"
         },
         {
             "projectTitle": "스크롤 애니메이션",
@@ -36,7 +39,8 @@
             "usingSkill": [
                 "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
-            "sourceLink": "https://github.com/dong1270/my_scroll_animation"
+            "sourceLink": "https://github.com/dong1270/my_scroll_animation",
+            "siteLink": "https://dong1270.github.io/my_scroll_animation/"
         }
     ]
 }

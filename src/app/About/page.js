@@ -5,16 +5,16 @@ export default function About() {
     //text data
     const aboutText = jsonData.about.comment;
     const education = jsonData.about.education;
-    const univDate = education.date.date1;
-    const univDegree = education.degree.degree1;
+    const eDate = education.date;
+    const eArray = Object.values(eDate);
+    const eDegree = Object.values(education.degree);
+
     // skill data
     const skill = jsonData.about.skill;
     const frontEnd = skill.frontend;
     const backEnd = skill.backend;
     const library = skill.library;
-    const database = skill.db; 
-
-    // console.log(skill);
+    const database = skill.db;
 
     return (
       <div className="about-main-view">
@@ -35,9 +35,18 @@ export default function About() {
                             <span>EDUCATION</span>
                             <div className='text'>
                                     <ul className='list-style'>
-                                        <li>
-                                            {univDate[0]}.{univDate[1]} ~ {univDate[2]}.{univDate[3]} {univDegree[0]} {univDegree[1]}
-                                        </li>
+                                        {
+                                            eArray.map((log, i) => {
+                                                const mykey = "eKey" + i;
+                                                return (
+                                                        <li key={mykey}>
+                                                            {log}
+                                                            &nbsp;&nbsp;
+                                                            {eDegree[i]}
+                                                        </li>
+                                                    )
+                                            })
+                                        }
                                     </ul> 
                             </div>
                         </div>
@@ -106,6 +115,9 @@ export default function About() {
                                         })
                                     }
                                 </div>
+                                {/* <div className='project-footer'>
+                                    &nbsp;
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -8,6 +8,12 @@
     padding: 5.75rem 6.25rem 0px;
 }
 
+.project-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .project {
     overflow: hidden;
     margin-bottom: 3.125rem;
@@ -91,6 +97,10 @@
     bottom: 3%;
     opacity: 1;
     visibility: visible;
+}
+
+.project-footer {
+    height: 100px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

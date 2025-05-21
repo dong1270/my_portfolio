@@ -7,6 +7,7 @@ export default function MyModal(props) {
     const discription = content.discription;
     const usingSkill = content.usingSkill;
     const srcLink = content.sourceLink;
+    const siteLink = content.siteLink;
 
     return (
         <div>
@@ -35,10 +36,10 @@ export default function MyModal(props) {
                                         <path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm5 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
                                     </svg>  
                                 </b>
-                                Description
+                                &nbsp;Description
                             </h5>
                             <p className='discription'>
-                                {discription}
+                                &nbsp;{discription}
                             </p>
                         </div>
                         <div>
@@ -48,7 +49,7 @@ export default function MyModal(props) {
                                         <path d="M0 3a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3zm5.5 1a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm6.5 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
                                     </svg>
                                 </b>
-                                Use Skill
+                                &nbsp;Use Skill
                             </h5>
                             <ul className='skill-list'>
                                 {
@@ -69,9 +70,18 @@ export default function MyModal(props) {
                                     <path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm2.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM8 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
                                 </svg>
                             </b>
-                            Source
+                            &nbsp;Source
                             <a href={srcLink}>
                                 {srcLink}
+                            </a>
+                        </div>
+                        <div>
+                            <b>
+                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm1 5.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm8 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm1.5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM4 13.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path></svg>
+                            </b>
+                            &nbsp;Source
+                            <a href={siteLink}>
+                                Site Link
                             </a>
                         </div>
                     </div>
