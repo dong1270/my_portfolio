@@ -3,7 +3,7 @@
         "mainImg": "test.jpg"
     },
     "about": {
-        "comment": "세줄 자기소개",
+        "comment": "노력을 현실로 만드는 개발자 강동성의 포트폴리오 블로그입니다.",
         "education": {
             "date": {
                 "date1": ["2016.", "03", " ~ ","2022.", "02"],
@@ -29,7 +29,7 @@
             "usingSkill": [
                 "Next.js", "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
-            "sourceLink": "https://github.com/dong1270/my_portfolio",
+            "sourceLink": ["https://github.com/dong1270/my_portfolio"],
             "siteLink": "https://dong1270.github.io/my_portfolio/"
         },
         {
@@ -39,8 +39,18 @@
             "usingSkill": [
                 "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
-            "sourceLink": "https://github.com/dong1270/my_scroll_animation",
+            "sourceLink": ["https://github.com/dong1270/my_scroll_animation"],
             "siteLink": "https://dong1270.github.io/my_scroll_animation/"
+        },
+        {
+            "projectTitle": "Home IoT 리모컨",
+            "imgPath": "somenail/scroll_animation_somenail.png",
+            "discription": "앱인벤터를 이용해 UI를 만들어 Node.js API 서버에서 사용자 정보 요청하여, 정보 비교 및 모듈 조작, 라즈베리파이를 이용하여 하드웨어 구축 및 소켓통신으로 조작",
+            "usingSkill": [
+                "앱인벤터", "Node.js", "Koa", "JavaScript", "C", "RaspberryPi", "MariaDB"
+            ],
+            "sourceLink": ["https://github.com/dong1270/LED_Remotectrl","https://github.com/dong1270/IoTRestAPI", "https://github.com/dong1270/LEDModule", "https://github.com/dong1270/LEDClient"],
+            "siteLink": "https://www.figma.com/design/KW2mEczV87qqs2WHGGo9h1/Home-IoT?node-id=0-1&m=dev&t=6QIobv1OtI4QVHdm-1"
         }
     ]
 }

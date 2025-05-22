@@ -1,12 +1,12 @@
-* {
-  /* font-family: "Open Sans", sans-serif; */
-  box-sizing: border-box;
-  scrollbar-width: none;
-  
-}
 @font-face {
   font-family: 'Pretendard-Regular';
   src: url('../../public/Pretendard/web/static/woff/Pretendard-Regular.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: 'Pretendard-Regular';
 }
 
 
@@ -48,10 +48,12 @@ a {
   width: 93%;
 }
 
-.logo {
+.logo > a {
+  font-family: 'Pretendard-Bold';
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 800;
   color: #3b3b3b;
+
 }
 
 .nav-menu {
@@ -151,6 +153,7 @@ footer {
 }
 
 .my-name {
+  font-family: 'Pretendard-Bold';
   font-size: 4.1rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -190,10 +193,11 @@ footer {
   bottom: -1.563rem;
   color: #3b3b3b;
   transition: 0.3s;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Pretendard-Bold';
+  font-weight: 600;
 }
 
 .active {

@@ -9,6 +9,7 @@ export default function Home() {
     const mainTable = jsonData.main;
     const mainImgPath = mainTable.mainImg;
 
+
     const changeMsg = () => {
         let msg = document.getElementsByClassName("target");
         if(index == 0) {
