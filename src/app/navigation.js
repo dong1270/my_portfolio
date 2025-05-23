@@ -34,13 +34,16 @@ export default function navigation() {
                     <div className="nav-menu">
                     <ul>
                         <li>
-                        <a className="item" href="/">Home</a>
+                            <a className="item" href="/">Home</a>
                         </li>
                         <li>
-                        <a className="item" href="About">About</a>
+                            <a className="item" href="About">About</a>
                         </li>
                         <li>
-                        <a className="item" href="Project">Project</a>
+                            <a className="item" href="Project">Project</a>
+                        </li>
+                        <li>
+                            <a className="item" href="https://github.com/dong1270">Github</a>
                         </li>
                     </ul>
                     </div>
@@ -66,6 +69,9 @@ export default function navigation() {
                         </li>
                         <li>
                             <a href="Project">Project</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dong1270">Github</a>
                         </li>
                     </ul>
                 </div>

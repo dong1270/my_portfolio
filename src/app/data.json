@@ -17,7 +17,7 @@
         "skill": {
             "frontend": ["html.png", "css.png", "js.png"],
             "backend": ["nodejs.png", "ts.png", "C.png", "Cpp.png", "Csharp.png", "python.png"],
-            "library": ["react.png", "next_js.png", "Vite.png", "opencv.png", "koa_js.png"],
+            "library": ["react.png", "next_js.png", "Vite.png", "opencv.png", "koa_js.png", "knex.png"],
             "db": ["mariadb.png", "pgsql.png"]
         }
     },
@@ -25,7 +25,7 @@
         {
             "projectTitle": "자기소개 페이지",
             "imgPath": "somenail/mypofol.png",
-            "discription": "next.js를 이용한 간단한 자기소개 페이지 제작",
+            "discription": "Next.js를 이용한 간단한 자기소개 페이지 제작",
             "usingSkill": [
                 "Next.js", "React.js", "Node.js", "HTML5", "CSS3", "JavaScript"
             ],
@@ -44,13 +44,64 @@
         },
         {
             "projectTitle": "Home IoT 리모컨",
-            "imgPath": "somenail/scroll_animation_somenail.png",
+            "imgPath": "somenail/appinventor.png",
             "discription": "앱인벤터를 이용해 UI를 만들어 Node.js API 서버에서 사용자 정보 요청하여, 정보 비교 및 모듈 조작, 라즈베리파이를 이용하여 하드웨어 구축 및 소켓 통신 활용",
             "usingSkill": [
-                "앱인벤터", "Node.js", "Koa", "JavaScript", "C", "RaspberryPi", "MariaDB"
+                "앱인벤터", "Node.js", "Koa.js", "JavaScript", "C", "RaspberryPi", "MariaDB"
             ],
             "sourceLink": ["https://github.com/dong1270/LED_Remotectrl","https://github.com/dong1270/IoTRestAPI", "https://github.com/dong1270/LEDModule", "https://github.com/dong1270/LEDClient"],
             "siteLink": "https://www.figma.com/deck/7EiqJ5gWM7r7OOsrB1cmLv/Home-IoT?node-id=1-42&t=6QIobv1OtI4QVHdm-1"
+        },
+        {
+            "projectTitle": "웹 미니게임: KOSTA 탑골공원",
+            "imgPath": "somenail/minigame.png",
+            "discription": "HTML5 + CSS3 + JS를 이용해 만든 고전 미니게임 페이지",
+            "usingSkill": [
+                "HTML5", "CSS3", "JavaScript"
+            ],
+            "sourceLink": ["https://github.com/dong1270/mini-game"],
+            "siteLink": "https://dong1270.github.io/mini-game/"
+        }
+        ,
+        {
+            "projectTitle": "Home IoT 어드민 페이지",
+            "imgPath": "somenail/homeiot_adminpage.png",
+            "discription": "사용자 및 IoT기기 데이터 관리를 위한 어드민페이지",
+            "usingSkill": [
+                "React.js", "HTML5", "CSS3", "JavaScript", "Axios.js", "Knex.js"
+            ],
+            "sourceLink": ["https://github.com/dong1270/IoT_admin_page"],
+            "siteLink": "https://www.figma.com/deck/iMbQMwcXkiPqja61dQ9PTJ/HOME-IoT-admin-page?node-id=1-42&t=GCc7EkNqSJgOE0xm-1"
+        },
+        {
+            "projectTitle": "Home IoT kdsh with Python",
+            "imgPath": "somenail/kdsh.png",
+            "discription": "Python3을 이용한 Shell 만들기",
+            "usingSkill": [
+                "Python3"
+            ],
+            "sourceLink": ["https://github.com/dong1270/kdsh"],
+            "siteLink": "https://www.figma.com/deck/5LZyBV6V5nJU8HABgzfU5F/HOME-IoT-Python?node-id=1-42&t=bw997VB93JKjqxOA-1"
+        },
+        {
+            "projectTitle": "Home IoT Front Door with Python",
+            "imgPath": "somenail/kdsh.png",
+            "discription": "Python3와 OpenCV를 이용하여 얼굴인식 잠금 해제 장치 만들기",
+            "usingSkill": [
+                "Python3", "OpenCV"
+            ],
+            "sourceLink": ["https://github.com/dong1270/My_Front_Door"],
+            "siteLink": "https://www.figma.com/deck/5LZyBV6V5nJU8HABgzfU5F/HOME-IoT-Python?node-id=2001-55&t=bw997VB93JKjqxOA-1"
+        },
+        {
+            "projectTitle": "Home IoT Smart Mirror with CSharp",
+            "imgPath": "somenail/kdsh.png",
+            "discription": "C#과 OpenCV를 이용한 날씨정보를 출력하는 스마트미러 만들기",
+            "usingSkill": [
+                "C#", "OpenCV"
+            ],
+            "sourceLink": ["https://github.com/dong1270/my_smartmirror"],
+            "siteLink": "https://www.figma.com/deck/cKS3VfO3NKDD0EgTUvUwXX/Home_IoT-smart-mirror?node-id=1-42&t=bw997VB93JKjqxOA-1"
         }
     ]
 }
