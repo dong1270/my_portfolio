@@ -30,11 +30,11 @@ export default function navigation() {
             <header className="mobile-view">
 
                 <div className="nav-var">
-                    <div className="logo" href="/"><a>DS_HOME</a></div>
+                    <div className="logo"><a href="/my_porttfolio">DS_HOME</a></div>
                     <div className="nav-menu">
                     <ul>
                         <li>
-                            <a className="item" href="my_porttfolio">Home</a>
+                            <a className="item" href="/my_porttfolio">Home</a>
                         </li>
                         <li>
                             <a className="item" href="About">About</a>
@@ -62,7 +62,7 @@ export default function navigation() {
                 <div className="mobile-list-frame">
                     <ul className="mobile-list">
                         <li>  
-                            <a href="my_porttfolio">Home</a>
+                            <a href="/my_porttfolio">Home</a>
                         </li>
                         <li>
                             <a href="About">About</a>
