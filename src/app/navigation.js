@@ -34,7 +34,7 @@ export default function navigation() {
                     <div className="nav-menu">
                     <ul>
                         <li>
-                            <a className="item" href="/">Home</a>
+                            <a className="item" href="my_porttfolio">Home</a>
                         </li>
                         <li>
                             <a className="item" href="About">About</a>
