@@ -62,7 +62,7 @@ export default function navigation() {
                 <div className="mobile-list-frame">
                     <ul className="mobile-list">
                         <li>  
-                            <a href="/">Home</a>
+                            <a href="my_porttfolio">Home</a>
                         </li>
                         <li>
                             <a href="About">About</a>
