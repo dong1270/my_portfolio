@@ -3,6 +3,7 @@ import jsonData from '@/app/data.json';
 
 export default function About() {
     //text data
+    const imgPath = jsonData.main;
     const aboutText = jsonData.about.comment;
     const education = jsonData.about.education;
     const eDate = education.date;
@@ -20,13 +21,13 @@ export default function About() {
       <div className="about-main-view">
         <div>
             <div className="img-view">
-                <img src="test.jpg"></img>
+                <img src={imgPath.mainImg}></img>
             </div>
             <div className="about-text-view">
                 <div className="about-contents-view">
                     <div className="about-contents">
                         <div className="about">
-                            <span>ABOUT ME</span>
+                            <span>ABOUT</span>
                             <div className='text'>
                                     {aboutText}
                             </div>
