@@ -22,3 +22,5 @@ npm bulid
 npm start
 ```
 
+---
+### presentation: [slide](https://www.figma.com/deck/kXuNkdSTQEL7UtcwHhUohq/DS_HOME-LAST-PROJECT?node-id=2-42&t=WgHQNozCNp6t9TpA-1)

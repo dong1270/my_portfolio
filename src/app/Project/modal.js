@@ -11,7 +11,7 @@ export default function MyModal(props) {
 
     return (
         <div>
-            <div className="modal-back"/>
+            {/* <div className="modal-back"/> */}
             <div className="modal-view">
                 <div className="modal-frame">
                     <div className="close-box" onClick={()=> {
@@ -93,6 +93,9 @@ export default function MyModal(props) {
                     </div>
                 </div>
             </div>
+            <div className="modal-back"  onClick={()=> {
+                        props.setModalSwith(false);
+                    }}/>
         </div>
     );
   }
