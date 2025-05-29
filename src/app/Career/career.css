@@ -1,0 +1,89 @@
+.about-main-view {
+    position: absolute;
+    inset: 70px;
+    overflow: hidden;
+}
+
+.about-main-view > div {
+    height: 100%;
+    display: flex;
+}
+
+.about-image-view {
+    width: 43%;
+    position: relative;
+}
+
+.about-image-view > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.about-text-view {
+    width: calc(65%);
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.about-contents-view {
+    padding: 2rem 6rem 0 6rem;
+}
+
+.about {
+    overflow: hidden;
+    margin-bottom: 3.125rem;
+}
+
+.about > span {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    position: relative;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3b3b3b;
+}
+
+.about > span::after {
+    content: "";
+    margin-left: 1.563rem;
+    position: absolute;
+    width: 5000px;
+    height: 1px;
+    background-color: #858585;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    line-height: 25px;
+}
+
+.corp-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.sub-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 767px) {
+    .about-main-view {
+        position: static;
+    }
+
+    .about-text-view {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about-contents-view {
+        padding: 5.75rem 20px 0px;
+    }
+}

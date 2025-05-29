@@ -21,19 +21,27 @@ export default function About() {
       <div className="about-main-view">
         <div>
             <div className="img-view">
-                <img src={imgPath.mainImg}></img>
+                <img className='img-view-img' src={imgPath.mainImg}></img>
             </div>
             <div className="about-text-view">
                 <div className="about-contents-view">
                     <div className="about-contents">
                         <div className="about">
-                            <span>ABOUT</span>
+                            <span> 
+                                <h3>
+                                    ABOUT
+                                </h3>
+                            </span>
                             <div className='text'>
                                     {aboutText}
                             </div>
                         </div>
                         <div className="about">
-                            <span>EDUCATION</span>
+                            <span>
+                                <h3>
+                                    EDUCATION
+                                </h3>
+                            </span>
                             <div className='text'>
                                     <ul className='list-style'>
                                         {
@@ -51,6 +59,7 @@ export default function About() {
                                     </ul> 
                             </div>
                         </div>
+
                         <div className="about">
                             <span>SKILL </span>
                             <div className='text'>
@@ -116,9 +125,6 @@ export default function About() {
                                         })
                                     }
                                 </div>
-                                {/* <div className='project-footer'>
-                                    &nbsp;
-                                </div> */}
                             </div>
                         </div>
                     </div>

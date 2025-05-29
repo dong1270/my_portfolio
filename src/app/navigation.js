@@ -40,6 +40,9 @@ export default function navigation() {
                             <a className="item" href="About">About</a>
                         </li>
                         <li>
+                            <a className="item" href="Career">Career</a>
+                        </li>
+                        <li>
                             <a className="item" href="Project">Project</a>
                         </li>
                         <li>
@@ -69,6 +72,9 @@ export default function navigation() {
                         </li>
                         <li>
                             <a href="Project">Project</a>
+                        </li>
+                         <li>
+                            <a href="Career">Career</a>
                         </li>
                         <li>
                             <a href="https://github.com/dong1270">Github</a>

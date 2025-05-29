@@ -40,7 +40,7 @@ export default function Home() {
       <div className="main-view">
         <div>
             <div className="img-view">
-                <img src={mainImgPath}></img>
+                <img className="img-view-img" src={mainImgPath}></img>
             </div>
             <div className="text-view">
                 <div className="contents-view">
