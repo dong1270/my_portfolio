@@ -5,21 +5,21 @@ import jsonData from '@/app/data.json';
 export default function Career() {
     const imgPath = jsonData.main;
     return (
-      <div className="about-main-view">
+      <div className="career-main-view">
         <div>
             <div className="img-view">
                 <img className='img-view-img' src={imgPath.mainImg}></img>
             </div>
-            <div className="about-text-view">
-                <div className="about-contents-view">
-                    <div className="about-contents">
-                        <div className="about">
+            <div className="career-text-view">
+                <div className="career-contents-view">
+                    <div className="career-contents">
+                        <div className="career">
                             <span>
                                 <h3>
                                     Career
                                 </h3>
                             </span>
-                            <div className='text'>
+                            <div className='career-text'>
                                 <div>
                                     <>
                                         <div className='corp-name'>
