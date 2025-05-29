@@ -28,8 +28,10 @@ export default function RootLayout({ children }) {
         <Nav/>
         
         {children}
-        
-        <footer/>
+
+      <footer> 
+        Copyright ⓒ 2025. 강동성 All rights reserved.
+      </footer>
       </body>
     </html>
   );

@@ -7,6 +7,7 @@
   box-sizing: border-box;
   scrollbar-width: none;
   font-family: 'Pretendard-Regular';
+  word-break: keep-all;
 }
 
 
@@ -99,14 +100,14 @@ a {
 }
 
 footer {
+  font-size: small;
   height: 70px;
   line-height: 70px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   z-index: 10;
-  background-color: white;
-  color: #3b3b3b;
+  color: #555;
   position: fixed;
   padding: 0px 70px;
 }
