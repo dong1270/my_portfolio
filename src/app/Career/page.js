@@ -21,9 +21,15 @@ export default function Career() {
                             </span>
                             <div className='text'>
                                 <div>
-                                    <div className='corp-name'>
-                                        아이커머
-                                    </div>
+                                    <>
+                                        <div className='corp-name'>
+                                            아이커머
+                                        </div>
+                                        <div className='corp-length'>
+                                            2023.08 ~ 2024.05 (약 10개월)
+                                        </div>
+                                        <br/>
+                                    </>
                                     <div className='corp-description'>
                                         <div className='sub-title'>
                                             신규 사업 투입

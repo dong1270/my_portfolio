@@ -17,8 +17,8 @@
         "skill": {
             "frontend": ["html.png", "css.png", "js.png"],
             "backend": ["nodejs.png", "ts.png", "C.png", "Cpp.png", "Csharp.png", "python.png"],
-            "library": ["react.png", "next_js.png", "Vite.png", "opencv.png", "koa_js.png", "knex.png"],
-            "db": ["mariadb.png", "pgsql.png"]
+            "library": ["react.png", "next_js.png", "Vite.png", "opencv.png", "express.png", "redux.png", "koa_js.png", "knex.png"],
+            "db": ["mariadb.png", "mysql.png", "pgsql.png", "mongodb.png"]
         }
     },
     "project": [
